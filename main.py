@@ -14,7 +14,7 @@ CSE_ID = os.getenv("GOOGLE_CSE_ID")
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
-engine.setProperty('rate', 160)  # Adjust speech speed
+engine.setProperty('rate', 184)  # Adjust speech speed
 engine.setProperty('volume', 1.0)  # Max volume
 
 def speak(text):
